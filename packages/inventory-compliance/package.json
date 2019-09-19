@@ -7,7 +7,7 @@
         "access": "public"
     },
     "scripts": {
-        "build": "webpack --config config/webpack.config.js",
+        "build": "NODE_ENV=production webpack --config config/webpack.config.js",
         "start": "webpack --watch --config config/webpack.config.js"
     },
     "repository": {
